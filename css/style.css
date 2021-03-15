@@ -1,13 +1,20 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Mix */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+.pos_rel {
+  position: relative;
+}
+
+/* header */
 header {
   font-size: 18px;
   font-weight: 500;
@@ -15,7 +22,7 @@ header {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: grey;
 }
 
 .container {
@@ -51,7 +58,25 @@ ul.list_inline li {
   color: black;
 }
 
+.dropdown_menu {
+  position: absolute;
+  top: 30px;
+  left: -50%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  width: 170px;
+  display: none;
+}
 
+.dropdown {
+  list-style: none;
+}
+
+.dropdown li {
+  padding: 15px 5px;
+}
+
+/* main */
 .container2 {
   display: flex;
   justify-content: center;
