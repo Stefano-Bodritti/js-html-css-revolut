@@ -25,6 +25,10 @@ a {
   color: grey;
 }
 
+a:hover {
+  color: black;
+}
+
 .container {
   height: 70px;
   max-width: 1300px;
@@ -60,10 +64,11 @@ ul.list_inline li {
 
 .dropdown_menu {
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: -50%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  background-color: white;
   width: 170px;
   display: none;
 }
@@ -74,6 +79,10 @@ ul.list_inline li {
 
 .dropdown li {
   padding: 15px 5px;
+}
+
+.active {
+  display: block;
 }
 
 /* main */
